@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+body {
+  background-color: #ffd9ca;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.homepage-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: #FBD7C5;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  border: 2px solid #FF6F61;
+}
+
+.homepage-title {
+  font-size: 36px;
+  font-weight: bold;
+  color: #ff6f61;
+  margin-bottom: 20px;
+  font-family: 'Kaushan Script', cursive;
+  text-align: center;
+}
+
+.homepage-content {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #4E4E4E;
+  margin-bottom: 10px;
+}
+
+.homepage-content:last-child {
+  margin-bottom: 0;
+}
+
+.nav-text {
+  margin-left: 5px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f99086;
+  padding: 30px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  font-size: 18px;
+  font-family: 'Kaushan Script', cursive;
+  font-weight: bold;
+  z-index: 100;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.logo {
+  width: 150px;
+  height: 50px;
+  color: red;
+}
+
+.navbar-nav {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  margin-left: 10px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #0f0f0f;
+  padding: 5px;
+}
+
+.nav-link:hover {
+  color: #ff483d;
+}
+
+.nav-icon {
+  margin-right: 5px;
+}
+
+.gift-icon-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.gift-icon {
+  font-size: 100px;
+  color: red;
+}
+
+.logout-link {
+  color: black;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.logout-link:hover {
+  color: #ff483d;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f99086;
+  color: #fff;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Kaushan Script', cursive;
+}
+
+.footer p {
+  margin: 0;
+}
+
+.footer-link {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 50px;
+}
+
+.footer-link:hover {
+  color: #ff483d;
+}

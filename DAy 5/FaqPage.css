@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+body {
+  background-color: #ffe7de;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.faq-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: #fbe0d3;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  border: 2px solid #ff1a05;
+  font-family: 'Kaushan Script', cursive;
+  color: #605f5f;
+}
+
+.faq-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #fd6c5f;
+}
+
+.faq-content {
+  cursor: pointer;
+  margin-bottom: 20px;
+  background-color: #fdd4ca; /* Light peach background color */
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.faq-content:hover {
+  background-color: #fbd1cb; /* Darker peach background color on hover */
+}
+
+.faq-question {
+  font-size: 18px;
+  color: #f6695d; /* Dark peach text color */
+  margin-bottom: 10px;
+}
+
+.faq-answer {
+  font-size: 16px;
+  color: #7a7a7a; /* Light grey text color */
+}
+
+.homepage-link {
+  margin-top: 20px;
+}
+
+.homepage-link a {
+  color: #f6695d; /* Dark peach link color */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.homepage-link a:hover {
+  color: #7a0f0a; /* Darker peach link color on hover */
+}
