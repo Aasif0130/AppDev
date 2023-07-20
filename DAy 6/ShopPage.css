@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+body {
+  background-color: #ffd9ca;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.shop-container {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  background-color: #ffba9f;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.shop-title {
+  font-size: 36px;
+  font-weight: bold;
+  color: #ff6f61;
+  margin-bottom: 40px;
+  font-family: 'Kaushan Script', cursive;
+}
+
+.shop-box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 500px;
+  padding: 40px;
+  background-color: #ffe6dc;
+  border: 2px solid #fd6051;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.shop-box:before {
+  content: '';
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 40px;
+  height: 40px;
+  background-color: #e21409; /* Updated to darker red color */
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  z-index: -1;
+}
+
+.shop-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+  
+}
+
+.shop-box-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #f46e62;
+  margin-bottom: 10px;
+  font-family: 'Kaushan Script', cursive;
+}
+
+.shop-box-description {
+  font-size: 16px;
+  color: #4e4e4e;
+  line-height: 1.5;
+  font-family: 'Kaushan Script', cursive;
+}
+
+.shop-box:hover {
+  background-color: #fbb9ab;
+}
+
+@media screen and (max-width: 600px) {
+  .shop-container {
+    padding: 20px;
+  }
+  
+  .shop-title {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  
+  .shop-box {
+    padding: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .shop-box-title {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .shop-box-description {
+    font-size: 14px;
+  }
+}
+
+.homepage-link {
+    margin-top: 20px;
+  }
+  
+  .homepage-link a {
+    color: #f6695d; /* Dark peach link color */
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .homepage-link a:hover {
+    color: #7a0f0a; /* Darker peach link color on hover */
+  }
+  
